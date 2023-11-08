@@ -1,0 +1,35 @@
+{
+  "name": "realtime-chat-app",
+  "version": "1.0.0",
+  "description": "real-time chat app with express, socket.io and MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nghiemtiendat/realtime-chat-app.git"
+  },
+  "author": "Nghiêm Tiến Đạt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nghiemtiendat/realtime-chat-app/issues"
+  },
+  "homepage": "https://github.com/nghiemtiendat/realtime-chat-app#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-form": "^0.12.6",
+    "express-session": "^1.17.3",
+    "hbs": "^4.2.0",
+    "moment": "^2.29.4",
+    "mongoose": "^7.0.3",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
